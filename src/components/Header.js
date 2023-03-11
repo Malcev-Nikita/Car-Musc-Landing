@@ -4,7 +4,7 @@ import '../style/Header.css';
 class Header extends React.Component {
     render() {
         return (
-            <header className='header'>
+            <header className='header' id='main'>
                 <div className='header_opacity'></div>
 
                 <div className='container'>

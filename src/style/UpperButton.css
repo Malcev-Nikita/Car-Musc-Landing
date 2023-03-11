@@ -1,0 +1,65 @@
+.upperbutton_section {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #DB3138;
+    transition: 0.7s;
+    animation: uparrowView 0.5s ease-in-out;
+}
+
+.upperbutton_section_up {
+    transition: 0.7s;
+    bottom: 170px;
+}
+
+.upperbutton_section_nodisplay {
+    transform: translateX(300px);
+    animation: uparrowNoView 0.6s ease-in;
+}
+
+.upperbutton_link { 
+    border-radius: 100%;
+    width: 50px;
+    height: 50px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.upperbutton_img {
+    width: 25px;
+}
+
+@keyframes uparrowView {
+    0% {
+        transform: translateX(300px);
+    }
+
+    50% {
+        transform: translateX(-30px);
+    }
+
+    70% {
+        transform: translateX(20px);
+    }
+
+    90% {
+        transform: translateX(-5px);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes uparrowNoView {
+    0% {
+        transform: translateX(0px);
+    }
+    
+    100% {
+        transform: translateX(300px);
+    }
+}

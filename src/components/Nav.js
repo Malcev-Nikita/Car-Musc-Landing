@@ -8,10 +8,10 @@ class Nav extends React.Component {
                 <div className='container'>
                     <div className='nav_content'>
                         <ul className='nav_ul'>
-                            <li className='nav_li'><a href='#'>Главная</a></li>
-                            <li className='nav_li'><a href='#'>Оклейка автомобилей</a></li>
-                            <li className='nav_li'><a href='#'>Детейлинг автомобилей</a></li>
-                            <li className='nav_li'><a href='#'>Галерея работ</a></li>
+                            <li className='nav_li'><a href='#main' className='nav_a'>Главная</a></li>
+                            <li className='nav_li'><a href='#' className='nav_a'>Оклейка автомобилей</a></li>
+                            <li className='nav_li'><a href='#' className='nav_a'>Детейлинг автомобилей</a></li>
+                            <li className='nav_li'><a href='#' className='nav_a'>Галерея работ</a></li>
                         </ul>
                     </div>
 
