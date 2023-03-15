@@ -1,0 +1,34 @@
+.slider {
+    background-color: #010101;
+    padding: 90px 0;
+}
+
+.slider .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider_img {
+    width: 400px;
+}
+
+.slider_descr {
+    width: 350px;
+    height: 65px;
+    margin: 0 auto;
+    transform: translateY(-30px);
+    background-color: #DB3138;
+}
+
+.slider_descr p {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 600;
+    width: 80%;
+    font-size: 17px;
+    transform: translateY(30px);
+    text-transform: uppercase;
+    line-height: 20px;
+}

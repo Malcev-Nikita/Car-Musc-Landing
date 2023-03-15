@@ -1,0 +1,138 @@
+.services {
+    background-color: #010101;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.services_header {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+
+.services_dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100px;
+    width: 150px;
+}
+
+.services_dots span {
+    display: block;
+    background-color: #DB3138;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    margin: 15px 0;
+}
+
+.services_tab { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_tab_button {
+    margin: 30px 50px;
+    width: 180px;
+    height: 65px;
+    background-color: #00000000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.services_tab_button_active {
+    background-color: #DB3138;
+    transition: 0.3s;
+}
+
+.services_tab_button:hover {
+    background-color: #DB313890;
+    transition: 0.3s;
+}
+
+.service_tab_content {
+    display: none;
+    margin-top: 80px;
+}
+
+.service_tab_content_active {
+    display: flex;
+}
+
+.service_tab_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 420px;
+    border: 2px #898989 solid;
+    margin: 0 20px;
+}
+
+.service_tab_card img {
+    height: 50px;
+}
+
+.service_tab_card h4 {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.service_tab_card p {
+    color: #fff;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.service_tab_card_button {
+    margin: 0 auto;
+    display: flex;
+    width: 180px;
+    height: 45px;
+    background-color: #00000000;
+    border: none;
+    position: relative;
+    bottom: -45px;
+}
+
+.service_tab_card_button_background {
+    position: absolute;
+    background-color: #DB3138;
+    width: 90px;
+    height: 45px;
+    z-index: 0;
+    transition: 0.3s;
+}
+
+.service_tab_card_button_background_active {
+    width: 180px;
+    transition: 0.3s;
+}
+
+.service_tab_card_button_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 180px;
+    margin-left: 12px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    z-index: 1;
+}
