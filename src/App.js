@@ -8,6 +8,8 @@ import Slider from './components/Slider';
 import SliderPlus1 from './components/SliderPlus1';
 import Services from './components/Services';
 import SliderPlus2 from './components/SliderPlus2';
+import OurWork from './components/OurWork';
+import Feedback from './components/Feedback';
 import UpperButton from './components/UpperButton';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <SliderPlus1 />
       <Services />
       <SliderPlus2 />
+      <OurWork />
+      <Feedback />
       <UpperButton />
     </div>
   );

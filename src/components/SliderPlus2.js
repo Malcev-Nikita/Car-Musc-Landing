@@ -18,7 +18,7 @@ class SliderPlus2 extends React.Component {
                         </p>
                     </div>
 
-                    <div className='slider_plus_item'>
+                    <div className='slider_plus_item ml'>
                         <div className='slider_plus_block'>
                             <div className='slider_plus_block_div'>
                                 <img src={rag} alt=""/>
