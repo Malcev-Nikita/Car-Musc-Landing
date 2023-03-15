@@ -39,4 +39,13 @@
 .our_work_container img {
     width: 16.66%;
     margin: 0 auto;
+    transition: 0.15s;
+    filter: saturate(50%);
+}
+
+.our_work_container img:hover {
+    transform: scale(1.4);
+    filter: saturate(400%);
+    transition: 0.15s;
+    z-index: 1;
 }
