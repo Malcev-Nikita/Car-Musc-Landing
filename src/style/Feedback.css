@@ -27,3 +27,140 @@
     transform: rotate(45deg);
     margin: 15px 0;
 }
+
+.feedback_inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback_input {
+    width: 306px;
+    height: 47px;
+    padding: 15px 0 15px 25px;
+    background-color: #00000000;
+    color: #898989;
+    border: 2px #141414 solid;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 13px;
+}
+
+.feedback_input:focus {
+    outline:none;
+    border: 2px #DB3138 solid;
+    color: #DB3138;
+}
+
+.feedback_dop {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback_textarea {
+    width: 526px;
+    height: 150px;
+    padding: 15px 0 15px 25px;
+    background-color: #00000000;
+    color: #898989;
+    border: 2px #141414 solid;
+    text-transform: uppercase;
+    font-weight: 600;
+    overflow: hidden;
+    resize: none;
+    margin-top: 24px;
+}
+
+.feedback_textarea:focus {
+    outline:none;
+    border: 2px #DB3138 solid;
+    color: #DB3138;
+}
+
+.feedback_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-left: 70px;
+}
+
+.feedback_social button {
+    width: 40px;
+    height: 40px;
+    border: 2px #141414 solid;
+    background-color: #00000000;
+    transition: 0.3s;
+}
+
+.feedback_social button:hover {
+    background-color: #DB3138;
+    border: 2px #DB3138 solid;
+    transition: 0.3s;
+}
+
+.feedback_form_submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.feedback_form_button {
+    display: flex;
+    width: 180px;
+    height: 61px;
+    background-color: #00000000;
+    border: none;
+    margin-right: 36px;
+}
+
+.feedback_form_button_background {
+    position: absolute;
+    background-color: #DB3138;
+    width: 90px;
+    height: 61px;
+    z-index: 0;
+    transition: 0.3s;
+}
+
+.feedback_form_button_background_active {
+    width: 180px;
+    transition: 0.3s;
+}
+
+.feedback_form_button_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 180px;
+    margin-left: 12px;
+    height: 61px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.feedback_geo {
+    text-transform: uppercase;
+    color: #fff;
+    transform: translateX(37px);
+}
+
+.feedback_geo h5, .feedback_geo a {
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.feedback_tel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.feedback_tel a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}

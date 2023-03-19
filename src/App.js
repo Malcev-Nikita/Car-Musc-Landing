@@ -10,6 +10,7 @@ import Services from './components/Services';
 import SliderPlus2 from './components/SliderPlus2';
 import OurWork from './components/OurWork';
 import Feedback from './components/Feedback';
+import Footer from './components/Footer';
 import UpperButton from './components/UpperButton';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <SliderPlus2 />
       <OurWork />
       <Feedback />
+      <Footer />
       <UpperButton />
     </div>
   );
